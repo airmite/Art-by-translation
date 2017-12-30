@@ -10,13 +10,12 @@
 
 
 
-    <title>Exemple Drive</title>
+    <title>About</title>
 
     <!-- Bootstrap core CSS -->
 
     
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet">
@@ -25,106 +24,292 @@
     
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="_js/sweet-justice.js" ></script>
+    <script src="_js/visible.js" ></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 
     
 
     </head>
     <body>
-      <div id="box_menu"><span class="supmenu">About</span><div class="line_orange"></div><span class="submenu" id="Presentation_sub">Presentation</span></div>
-      <div id="orange_box"></div>
-      <header id="menu_bar" class="menu_100">
-
-        <div id="nav-container">
-          <div class="toggle-icon">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-        <div id="Logo_A" class="Title Title_A">ART by TRANSLATION</div>
-        <div id="Logo_B" class="Title Title_B">ART by TRANSLATION</div>
-        <div id="menu_page" class="menu_close menu_p100">
-          <div id="menu_content">
-            <div class="menu_list"><a class="a_menu" href="">About</a>
-              <ul>
-                <li> <a href="">Presentation</a></li>
-                <li> <a href="">Research Team</a></li>
-                <li> <a href="">Institutional Partners</a></li>
-                <li> <a href="">Team</a></li>
-              </ul>
-            </div>
-            <div class="menu_list"><a class="a_menu" href="">Postgraduate Program</a>
-              <ul>
-                <li> <a href="">Call for Application</a></li>
-                <li> <a href="">Participants</a></li>
-                <li> <a href="">AbT Seminars</a></li>
-                <li> <a href="">Workshop with Students</a></li>
-              </ul>
-            </div>
-            <div class="menu_list"><a class="a_menu" href="">Exhibitions</a>
-             
-            </div>
-            <div class="menu_list"><a class="a_menu" href="">Events</a>
-              <ul>
-                <li> <a href="">Performances</a></li>
-                <li> <a href="">Symposia</a></li>
-                <li> <a href="">Lectures & Conversations</a></li>
-              </ul>
-            </div>
-            <div class="menu_list"><a class="a_menu" href="">Press Reviews</a></div>
-            <div class="menu_list"><a class="a_menu" href="">Publications</a></div>
-          </div>
-        </div>
-      </header>
-
       
 
-      <div id="NEWS" class="newstop">
-        <div class="span_news span_n_open"></div>
-        <div class="span_news span_n_open"></div>
-        <div id="news_rect" class="news_open">
+        <div id="orange_box"></div>
+        <div id="menu_bar" class="menu_100">
+
+
+          <img id="logo_cneai" class="logo_partners opa0" src="_img/cneai.svg"></img>
+          <img id="logo_talm" class="logo_partners opa0" src="_img/talm.svg"></img>
+          <img id="logo_ensapc" class="logo_partners opa0" src="_img/ensapc.svg"></img>
+
+          <div id="nav-container">
+            <div class="toggle-icon">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <div id="Logo_A" class="Title Title_A">ART by TRANSLATION</div>
+          <div id="Logo_B" class="Title Title_B">ART by TRANSLATION</div>
+          <div id="menu_page" class="menu_close menu_p100">
+
+            <div id="menu_content">
+              <div class="menu_list"><a class="a_menu" href="">About</a>
+                <ul>
+                  <li> <a href="#Presentation">Presentation</a></li> 
+                  <li> <a href="#R_T">Research Theme</a></li>
+                  <li> <a href="#I_P">Institutional Partners</a></li>
+                  <li> <a href="#Team">Team</a></li>
+                </ul>
+              </div>
+              <div class="menu_list"><a class="a_menu" href="pp.html">Postgraduate Program</a>
+                <ul>
+                  <li> <a href="pp.html">Call for Application</a></li>
+                  <li> <a class="wip">Participants</a></li>
+                  <li> <a class="wip">AbT Seminars</a></li>
+                  <li> <a class="wip">Workshop with Students</a></li>
+                </ul>
+              </div>
+              <div class="menu_list"><a class="a_menu wip">Exhibitions</a>
+               
+              </div>
+              <div class="menu_list"><a class="a_menu wip">Events</a>
+                <ul>
+                  <li> <a class="wip">Performances</a></li>
+                  <li> <a class="wip">Symposia</a></li>
+                  <li> <a class="wip">Lectures & Conversations</a></li>
+                </ul>
+              </div>
+              <div class="menu_list"><a class="a_menu wip">Press Reviews</a></div>
+              <div class="menu_list"><a class="a_menu wip">Publications</a></div>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+        
+
+        <div id="NEWS" class="newstop nti">
+        
           <button id="cross" type="button" class="tcon tcon-remove tcon-remove--chevron-down" aria-label="remove item"></button>
-          <h1>NEWS</h1>
-          <span class="news_date"> 12.17.18 </span>
-          <p class="news_texte"><br>Knowles’s poem and built structures, discussions, publications, and performances are presented in dialogue with other artworks</p>
-          <span class="news_date"> 11.18.18 </span>
-          <p class="news_texte"><br>Knowles’s poem and built structures, discussions, publications, and performances are presented in dialogue with other artworks</p>
-          <span class="news_date"> 09.11.17 </span>
-          <p class="news_texte"><br>Knowles’s poem and built structures, discussions, publications, and performances are presented in dialogue with other artworks</p>
-        </div>
-      </div>
+            <h1>NEWS</h1>
+          <div id="news_rect" class="news_open">
 
-
-      <section id="About">
-        <div id="Presentation">
-          Art by Translation is an international research program in art and curatorial practices directed by Maud Jacquin and Sébastien Pluot. Organized in sessions dedicated to specific research themes, this itinerant program takes place at different sites in Europe and North America and develops artistic and curatorial projects, discursive events and publications in collaboration with museums, art schools and universities. In each context, research is enriched by the contributions of international artists, lecturers, doctoral and master’s students from different disciplines.
-          Art by Translation, in close partnership with the CNEAI= art center in Pantin/Paris, and the French art schools, Ecole Supérieure des Beaux Arts TALM, Angers (Esba TALM)
-          and Ecole Nationale Supérieure d’Arts Paris-Cergy (ENSAPC), involves the participation of four artist-researchers who accompany the program in its different international contexts. They contribute to the research, participate in seminars and workshops with students from the host city and produce new works presented in the various Art by Translation exhibitions and events. This aspect of the program is supported by the French Ministry of Culture and corresponds to the “3ème cycle” (post-graduate program) offered by Esba TALM and ENSAPC.
-          Each session’s research focus is defined in such a way as to be disseminated across various disciplinary contexts (fine arts, dance, film, writing, art history and theory, architecture, design). For this first session, the research focuses on the processes and ideological stakes of translation in the arts. The research subjects for following years are defined as extensions or outgrowths of previously developed issues.
-          A research-centered and process-based model
-          This program considers the notion of process as a crucial feature for the production and diffusion of critical art and theory. As Mel Bochner has stated, the goal is “not to make art but to do art.” The art projects and research experimentations this program seeks to develop are based on a conception of artworks and exhibitions as generative. Research is conceived as a permanent process of translation and dissemination. Art by Translation thus incorporates a flexible approach allowing projects to develop organically in various contexts and in different forms: artworks, exhibitions, study sessions with prominent invited lecturers, symposia, publications, architectural constructions, etc. Its model discards hierarchal exhibition practices that situate “art education” and public events outside of the exhibition. The discussions, debates, and collaborations that typically take place before or after an exhibition are expanded and engaged throughout the curatorial process, and materialized as part of the exhibition itself.
-          In foregrounding research and upsetting the temporal limits of curatorial conventions, the program seeks to fill existing gaps in pedagogical and exhibition practices and to propose a model of collaboration among art schools, universities, and exhibition venues, with the involvement of artists, historians, theoreticians, and curators across many disciplines.
-          Program Features
-          The program tends to break with the conventional chronology of “research-exhibition-publication” and aims to reconfigure the boundaries between disciplines.
-          Projects (exhibitions, artworks, texts) are not considered as final results but rather as stages in a process and points of departure for further elaborations.
-          The program creates collaborative situations in which artists and curators produce both individual and collective projects. What is emphasized are the debates and ideas generated by the collaborative situations.
-          Art byTranslation produces an evolving research archive that grows and takes on different forms while adapting to different contexts. This archive serves as a basis for interpretation or reactivation rather than constituting an inactive memory of projects. This website presents these archives along with documentation and publications from various events and productions.
+            
+            <div id='content_news'>
+              <span class="news_date"> 01.05.18 </span><span class="news_title"><b>Call for Application,</b></span><span class="news_here"><i>Los Angeles.</i></span>
+              <div class="news_img"><a href="pp.html"><img src="_img/babel.jpg" title="Artist unkown, after Bernard Direxit and Ed. Ruscha, The Tower of Babel on Fire, 2017. Colored engraving, 30 x 24 cm. "></a></div>
+              <p class="news_texte"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              <span class="news_date"> 11.18.18 </span>
+              <p class="news_texte"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              <span class="news_date"> 09.11.17 </span>
+              <p class="news_texte"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </div>
+          </div>
         </div>
-      </section>
 
-      
-      <section id="ok">
-        <div class="Rectangle">
-          <h1 class="title"></h1>
-          <h2 class="curators"><span><i>Curators : </i></span></h2>
-          <p class="texte"></p>
-          <div class="artists"><p class="art"><i>Artists : </i><br></p></div>
-        </div>
-      </section>
+      <main>
+        <div id="box_menu"><span class="supmenu">About</span><div class="line_orange"></div><ul class="submenu"><li></li></ul></div>
+
+        <section id="Presentation" data-id="Presentation">
+          <object id="paperclip" class="opa1" data="/_img/paperclipr_animated.svg"></object>
+          <div class="local_section">
+            <div class="intro_rect"></div><div class="intro_rect2"></div>
+            <div class="intro_title">Presentation</div>
+            <p class="sweet-hypens">
+              <b>Art by Translation</b> is an international research program in art and curatorial practices directed by <span class="oh">Maud Jacquin</span> and <span class="oh">Sébastien Pluot</span>. Organized in sessions dedicated to specific research themes, this itinerant program takes place at different sites in Europe and North America and develops artistic and curatorial projects, discursive events and publications in collaboration with museums, art schools and universities. In each context, research is enriched by the contributions of international artists, lecturers, doctoral and master’s students from different disciplines.<br><br>
+
+              <b>Art by Translation</b>, in close partnership with the <span class="oh">CNEAI=</span> art center in Pantin/Paris, and the French art schools, Ecole Supérieure des Beaux Arts TALM, Angers (<span class="oh">Esba TALM</span>) and Ecole Nationale Supérieure d’Arts Paris-Cergy (<span class="oh">ENSAPC</span>), involves the participation of four artist-researchers who accompany the program in its different international contexts. They contribute to the research, participate in seminars and workshops with students from the host city and produce new works presented in the various Art by Translation exhibitions and events. This aspect of the program is supported by the <span class="oh">French Ministry of Culture</span> and corresponds to the “3ème cycle” (post-graduate program) offered by Esba TALM and ENSAPC.<br><br>
+
+              Each session’s research focus is defined in such a way as to be disseminated across various disciplinary contexts (fine arts, dance, film, writing, art history and theory, architecture, design). For this first session, the research focuses on the processes and ideological stakes of translation in the arts. The research subjects for following years are defined as extensions or outgrowths of previously developed issues.<br><br><br>
+            </p>
+              <h3>A research-centered and process-based model</h3><br>
+            <p class="sweet-hypens">
+              This program considers the notion of process as a crucial feature for the production and diffusion of critical art and theory. As Mel Bochner has stated, the goal is “not to make art but to do art.” The art projects and research experimentations this program seeks to develop are based on a conception of artworks and exhibitions as generative. Research is conceived as a permanent process of translation and dissemination. Art by Translation thus incorporates a flexible approach allowing projects to develop organically in various contexts and in different forms: artworks, exhibitions, study sessions with prominent invited lecturers, symposia, publications, architectural constructions, etc. Its model discards hierarchal exhibition practices that situate “art education” and public events outside of the exhibition. The discussions, debates, and collaborations that typically take place before or after an exhibition are expanded and engaged throughout the curatorial process, and materialized as part of the exhibition itself.
+              In foregrounding research and upsetting the temporal limits of curatorial conventions, the program seeks to fill existing gaps in pedagogical and exhibition practices and to propose a model of collaboration among art schools, universities, and exhibition venues, with the involvement of artists, historians, theoreticians, and curators across many disciplines.<br><br><br>
+            </p>
+              <h3>Program Features</h3><br>
+            <p class="sweet-hypens">
+              The program tends to break with the conventional chronology of “research-exhibition-publication” and aims to reconfigure the boundaries between disciplines.
+              Projects (exhibitions, artworks, texts) are not considered as final results but rather as stages in a process and points of departure for further elaborations.
+              The program creates collaborative situations in which artists and curators produce both individual and collective projects. What is emphasized are the debates and ideas generated by the collaborative situations.
+              Art byTranslation produces an evolving research archive that grows and takes on different forms while adapting to different contexts. This archive serves as a basis for interpretation or reactivation rather than constituting an inactive memory of projects. This website presents these archives along with documentation and publications from various events and productions.
+            </p>
+          </div>
+        </section>
+
+  
+        <section id="R_T" data-id="Research Theme">
+              <div class="local_section">
+                <div class="intro_rect"></div><div class="intro_rect2"></div>
+                <div class="intro_title">Research Theme</div>
+
+                <p class="sweet-hypens"><i>Research theme for the first session 2016-2018:</i></p><br><br>
+                <h3>“The Processes and Ideological Stakes<br> of Translation in the Arts.”</h3><br><br>
+                <p class="sweet-hypens">Translation issues have been a central topic in the history of 20th century art. Various fields, such as linguistics and literature, psychoanalysis, philosophy, politics and technology, have engaged issues of translation. Much is at stake in the subject of translation for interactions between various art forms, for our ways of relating to the work of art, of interpretating, comprehending, and presenting art, and for its inclusion into art history.<br><br>
+                Ever since the Babelic myth of a unique and global language, and all the way up to the correspondence theories that paved the way for the dream of a universal language popular amongst the historical avant-garde, or the recent positivist ideology of an adequate translation allegedly offered by the algorithm, the fantasy of transparent communication has informed every era. At the opposite end from this “telepathic impulse", a different aesthetic and ethical stance has been based on the acknowledgment of inadequacy and discordance in the process of translation.<br><br>
+                As early as the beginning of the 19th century, philosopher Friedrich Schleiermacher asserted that where transmission was concerned, incomprehension must be considered to be the rule and comprehension to be the exception. Nonetheless the greater part of aesthetic theories are still based on a hermeneutics of reception and signification. Yet since Walter Benjamin, Theodor Adorno and later Jacques Derrida, new conceptions of our relation to the work of art have acknowledged untranslatablility and a fundamental disjunction between what one "says" and what one "means to say".<br><br>
+                “Doesn't disjunction open up the very possibility of otherness?" Derrida suggested, thus establishing a relation between aesthetic and ethical issues. The production and analysis of art do not exist outside of this relation. In various texts, Derrida uses the expression "double bind" to describe the fact that translation is at the same time necessary and impossible. This is a paradox that extends to the translation of an idea into its expression, to the transmission involved when one being addresses another, to the shifts from one medium or historical period to another. Translation issues enable us to analyze and differentiate the aesthetic and ideological stances underlying the history of art – for example, the striving for transparent communication of meaning by form. What is at stake in the positivist history of translatability between art and technology? How have artistic practices worked through this since the historical avant-garde?<br><br>
+                20th Century critics frequently proclaimed that artists could no longer be considered the universal interpreters of some unattainable truth. Michel Foucault expressed the desirability of deposing the "authoritarian" figure of the artist, and establishing a new artistic constellation where the work of art would leave "spaces for possible subjects.” Following Foucault, Jacques Rancière identified situations in which the spectator "plays the part of a participating actor, who elaborates his/her own translations in order to appropriate history and turn it into a personal history".<br><br>
+                The research focus of the first session of Art by Translation will provide the opportunity to question the implications of such an "emancipated community" where subjects – artists, curators, critics, spectators - become "storytellers and translators".</p>
+              </div>
+        </section>
+
+        <section id="I_P" data-id="Institutional Partners">
+              <div class="local_section">
+                <div class="intro_rect"></div><div class="intro_rect2"></div>
+                <div class="intro_title">Institutional Partners</div>
+                <table>
+                  
+                  <tr>
+                    <td><b>Core partners</b></td>
+                    <td><ul>
+                      <li>Centre National Édition Art Image, Chatou / Pantin (CNEAI=)</li>
+                      <li>École Supérieure des Beaux Arts TALM Angers (ESBA TALM Angers)</li>
+                      <li>École Nationale Supérieure d’Arts Paris-Cergy (ENSAPC)</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>France</b></td>
+                    <td><ul>
+                      <li>CNEAI=, Chatou / Pantin</li>
+                      <li>ESBA TALM Angers</li>
+                      <li>ENSA Paris-Cergy</li>
+                      <li>La Galerie, Centre d’Art Contemporain, Noisy-le-sec</li>
+                      <li>Galerie Michèle Didier</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>New York, USA</b></td>
+                    <td><ul>
+                      <li>The James Gallery, The Graduate Center, City University of New York (CUNY)</li>
+                      <li>Barnard College</li>
+                      <li>Emily Harvey Foundation</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>Montreal, Canada</b></td>
+                    <td><ul>
+                      <li>Fonderie Darling</li>
+                      <li>Centre Canadien d’Architecture (CCA)</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>Brussels, Belgium</b></td>
+                    <td><ul>
+                      <li>Faculté d’Architecture La Cambre Horta, Université Libre de Bruxelles</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>Los Angeles, USA</b></td>
+                    <td><ul>
+                      <li>California Institute of the Arts (CalArts)</li>
+                    </ul></td>
+                  </tr> 
+                  <tr>
+                    <td><b>Lisbon, Portugal</b></td>
+                    <td><ul>
+                      <li>AiR 351</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                    <td><b>AbT is supported by:</b></td>
+                    <td><ul>
+                      <li>The French Ministry of Culture</li>
+                      <li>The French Institute</li>
+                    </ul></td>
+                  </tr>  
+                </table>
+              </div>
+        </section>
+
+        <section id="Team" data-id="Team">
+          <div class="local_section">
+            <div class="intro_rect"></div><div class="intro_rect2"></div>
+            <div class="intro_title">Team</div>
+            <table>
+              <tr>
+                <td><b>Program directors:</b></td>
+                <td><ul>
+                  <li>Maud Jacquin</li>
+                  <li>Sébastien Pluot</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td><b>Artistic co-director:</b></td>
+                <td><ul>
+                  <li>Sylvie Boulanger</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td><b>Pedagogical co-director:</b></td>
+                <td><ul>
+                  <li>Jeff Guess</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td><b>Advisory Board</b></td>
+                <td><ul>
+                  <li>A Constructed World (Geoffrey Lowe and Jaqueline Riva), artists</li>
+                  <li>Mark Geffriaud, artist</li>
+                  <li>Hannah Higgins, professor of art history at University of Illinois, Chicago</li>
+                  <li>Silvia Kolbowski, artist</li>
+                  <li>Julia Robinson, professor of art history at NYU, New York</li>
+                  <li>Christian Xatrec, director of the Emily Harvey Foundation, New York</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td><b>Artists/Researchers</b></td>
+                <td><ul>
+                  <li>A Constructed World (Jacqui Riva and Geoffrey Lowe)</li>
+                  <li>Emily Apter</li> 
+                  <li>Chloe Bass</li> 
+                  <li>Keren Benbenisty</li> 
+                  <li>Sylvie Boulanger</li> 
+                  <li>Hugo Brégeau</li> 
+                  <li>Alejandro Cesarco</li> 
+                  <li>Jagna Ciuchta</li> 
+                  <li>Peter Tracey Connor</li> 
+                  <li>Jean-Pascal Flavien</li> 
+                  <li>Mark Geffriaud</li> 
+                  <li>Aurélie Godard</li> 
+                  <li>Jeff Guess</li> 
+                  <li>Hannah Higgins</li> 
+                  <li>Maud Jacquin</li> 
+                  <li>Ben Kinmont</li> 
+                  <li>Nicholas Knight</li> 
+                  <li>Alison Knowles</li> 
+                  <li>Silvia Kolbowski</li> 
+                  <li>Katarzyna Krakowiak</li> 
+                  <li>Mikko Kuorinki</li> 
+                  <li>Brian O’Keeffe</li> 
+                  <li>Jenny Perlin</li> 
+                  <li>Aurélie Pétrel</li> 
+                  <li>Sébastien Pluot</li> 
+                  <li>Émilie Renard</li> 
+                  <li>Julia Robinson</li> 
+                  <li>Janet Sarbanes</li> 
+                  <li>Trevor Stark</li> 
+                  <li>Fabien Vallos</li> 
+                  <li>Anthony Vidler</li> 
+                  <li>Nicole Woods</li> 
+                  <li>Christian Xatrec</li>
+                </ul></td>
+              </tr> 
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <div class="cd-cover-layer"></div>
+      <div class="cd-loading-bar"></div>
+
+      <div id="work_in"><p>work in progress</p></div>
 
       <script src="superpouvoir.js" type="text/javascript" charset="utf-8"></script>
-      <script type='text/javascript' src="google.js" ></script>
+      <!-- <script type='text/javascript' src="google.js" ></script> -->
     </body>
 
     </html>

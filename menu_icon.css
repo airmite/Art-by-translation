@@ -160,7 +160,7 @@
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   width: 59%;
-  background: white; }
+  background: #ff7548; }
 
 .tcon-remove--chevron-down.tcon-transform::after {
   left: auto;
@@ -168,7 +168,7 @@
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   width: 60%;
-  background: white; }
+  background: #ff7548; }
 
 .tcon-visuallyhidden {
   border: 0;
